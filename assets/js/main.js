@@ -624,3 +624,11 @@ $('.clientel-Modal-responsive').slick({
 
   ]
 });
+
+$('.openEnquiryModalBtn').click(function () {
+  $('#enquiryModal').modal('show');
+});
+
+$('.closeEnquiryModalBtn').click(function () {
+  $('#enquiryModal').modal('hide');
+});
