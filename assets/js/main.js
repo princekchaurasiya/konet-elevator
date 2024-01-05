@@ -303,6 +303,63 @@ $(function () {
     $('#certificateModal').modal('show');
     $('#certificateModal .modal-body img').attr('src', imageSrc);
   }
+
+  $('.open-deviBhavanModal').on('click', function () {
+    $('#deviBhavanModal').modal('show');
+
+  });
+
+  // Close modal on close button click
+  $('.close-deviBhavanModal').on('click', function () {
+    $('#deviBhavanModal').modal('hide');
+  });
+
+  $('.open-infinityTowerModal').on('click', function () {
+    $('#infinityTowerModal').modal('show');
+
+  });
+
+  // Close modal on close button click
+  $('.close-infinityTowerModal').on('click', function () {
+    $('#infinityTowerModal').modal('hide');
+  });
+
+
+$('.open-kalpana-marine-lines-Modal').on('click', function () {
+    $('#kalpanaMarineLinesModal').modal('show');
+
+  });
+
+  // Close modal on close button click
+  $('.close-kalpana-marine-lines-Modal').on('click', function () {
+    $('#kalpanaMarineLinesModal').modal('hide');
+  });
+
+
+$('.open-shefield-towers-Modal').on('click', function () {
+    $('#shefield-towers-Modal').modal('show');
+
+  });
+
+  // Close modal on close button click
+  $('.close-shefield-towers-Modal').on('click', function () {
+    $('#shefield-towers-Modal').modal('hide');
+  });
+
+
+$('.open-shivthirth-mahalaxmi-Modal').on('click', function () {
+    $('#shivthirth-mahalaxmi-Modal').modal('show');
+
+  });
+
+  // Close modal on close button click
+  $('.close-shivthirth-mahalaxmi-Modal').on('click', function () {
+    $('#shivthirth-mahalaxmi-Modal').modal('hide');
+  });
+
+
+
+
 });
 
 $('.responsive').slick({
@@ -311,6 +368,232 @@ $('.responsive').slick({
   infinite: true,
   speed: 300,
   slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+
+$('.devi-bhavan-responsive').slick({
+  prevArrow: $("#deviBhavanArrowLeft"),
+  nextArrow: $("#deviBhavanArrowRight"),
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+
+$('.infinity-tower-responsive').slick({
+  prevArrow: $("#infinityTowerleft"),
+  nextArrow: $("#infinityToweright"),
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+$('.kalpana-marine-lines-responsive').slick({
+  prevArrow: $("#kalpanaMarineLinesArrowLeft"),
+  nextArrow: $("#kalpanaMarineLinesArrowRight"),
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+
+$('.shefield-towers-Modal-responsive').slick({
+  prevArrow: $("#shefieldTowersArrowLeft"),
+  nextArrow: $("#shefieldTowersArrowRight"),
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+$('.shivthirth-mahalaxmi-Modal-responsive').slick({
+  prevArrow: $("#shivthirth-mahalaxmi-ModalArrowLeft"),
+  nextArrow: $("#shivthirth-mahalaxmi-ModalArrowRight"),
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+  ]
+});
+
+
+$('.clientel-Modal-responsive').slick({
+  prevArrow: $("#clientModalArrowLeft"),
+  nextArrow: $("#clientModalArrowRight"),
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,

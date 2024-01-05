@@ -1690,3 +1690,55 @@ section {
   padding:0.7rem;
   background-color: #2d2b46;
 }
+
+.clientele-text-wrapper-text{
+ font-weight: bold;
+ padding: 1rem;
+}
+
+.clientele-whole-wrapper{
+  background: #fff;
+  border-radius: 20px;
+}
+
+
+.clientele-whole-wrapper:hover {
+
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+
+}
+
+
+.clientele-whole-wrapper:hover {
+
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+
+}
+
+.clientele-image{
+  border-radius: 25px;
+  padding: 1rem;
+}
+
+
+
+#deviBhavanModal .modal-body {
+  max-height: 70vh; /* Set the maximum height of the modal body (adjust as needed) */
+  overflow-y: auto; /* Add vertical scrollbar if content exceeds the height */
+}
+
+#deviBhavanModal .img-fluid.custom-image {
+  display: block;
+  width: auto;
+  max-height: 100%;
+  background-color: red;
+}
+
+/* Optional: Style for navigation arrows */
+.controls-top {
+  margin-top: 10px;
+}
