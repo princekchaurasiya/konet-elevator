@@ -325,7 +325,7 @@ $(function () {
   });
 
 
-$('.open-kalpana-marine-lines-Modal').on('click', function () {
+  $('.open-kalpana-marine-lines-Modal').on('click', function () {
     $('#kalpanaMarineLinesModal').modal('show');
 
   });
@@ -336,7 +336,7 @@ $('.open-kalpana-marine-lines-Modal').on('click', function () {
   });
 
 
-$('.open-shefield-towers-Modal').on('click', function () {
+  $('.open-shefield-towers-Modal').on('click', function () {
     $('#shefield-towers-Modal').modal('show');
 
   });
@@ -347,7 +347,7 @@ $('.open-shefield-towers-Modal').on('click', function () {
   });
 
 
-$('.open-shivthirth-mahalaxmi-Modal').on('click', function () {
+  $('.open-shivthirth-mahalaxmi-Modal').on('click', function () {
     $('#shivthirth-mahalaxmi-Modal').modal('show');
 
   });
@@ -633,11 +633,21 @@ $('.closeEnquiryModalBtn').click(function () {
   $('#enquiryModal').modal('hide');
 });
 
-    function getUrlParameter(name) {
-        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-        var results = regex.exec(location.search);
-        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-    }
+/* sticky mob fadein */
+$("#stickymob").hide();
+$("#stickyflash").hide();
 
-    document.getElementById('urlParameter').value = getUrlParameter('campaign');
+$(window).scroll(function()
+{
+  if ($(this).scrollTop() >= 100)
+  {
+    $("#stickymob").fadeIn(500);
+    $("#stickyflash").fadeIn(500);
+  }
+  else
+  {
+    $("#stickymob").fadeOut(500);
+    $("#stickyflash").fadeOut(500);
+  }
+});
+/* end of sticky mob fadein */
