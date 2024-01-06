@@ -1,9 +1,0 @@
-<Files "thank-you.php">
-    Order Deny,Allow
-    Deny from all
-</Files>
-
-<Files "form-submit-failed.php">
-    Order Deny,Allow
-    Deny from all
-</Files>
