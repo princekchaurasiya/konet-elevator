@@ -55,18 +55,18 @@ try {
 
     if ($httpCode == 200) {
         // Successful submission
-        header('Location: https://yourdomain.com/thank-you.php'); // Update with your actual domain
+        header('Location: ./thank-you.php'); // Update with your actual domain
         exit();
     } else {
         // Submission failed
-        header('Location: https://yourdomain.com/form-submit-failed.php'); // Update with your actual domain
+        header('Location: ./form-submit-failed.php'); // Update with your actual domain
         exit();
     }
 } catch (Exception $e) {
     // Log the exception
     logError("Exception: " . $e->getMessage());
     // Handle the exception or redirect to an error page
-    header('Location: https://yourdomain.com/form-submit-failed.php'); // Update with your actual domain
+    header('Location: ./form-submit-failed.php'); // Update with your actual domain
     exit();
 }
 ?>
