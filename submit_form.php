@@ -1,6 +1,5 @@
 <?php
 
-
 function submitToGoogleForm($formData) {
     $googleFormsURL = "https://docs.google.com/forms/d/e/1FAIpQLSd9ptlN0qG7APjlaiWPcdkGuVc3BSXFvWkrFpUs4ieDKTi2Gw/formResponse";
     $googleFormsURL .= '?' . http_build_query($formData);
@@ -33,7 +32,6 @@ echo "Debug Output:<pre>";
 print_r($_GET);
 echo "</pre>";
 
-
 // Update the keys to match the actual keys in the $_GET array
 if (empty($_GET['entry_1884265043']) || empty($_GET['entry_167369742']) || empty($_GET['entry_524038999']) || empty($_GET['entry_170033134'])) {
     echo "No arguments provided!";
@@ -41,9 +39,9 @@ if (empty($_GET['entry_1884265043']) || empty($_GET['entry_167369742']) || empty
 }
 
 $name = rawurldecode($_GET['entry_1884265043']);
-$phone = rawurlencode($_GET['entry_167369742']);
-$email = rawurlencode($_GET['entry_524038999']);
-$requirements = rawurlencode($_GET['entry_170033134']);
+$phone = rawurldecode($_GET['entry_167369742']); // Use rawurldecode here
+$email = rawurldecode($_GET['entry_524038999']);
+$requirements = rawurldecode($_GET['entry_170033134']);
 
 $formData = [
     "entry.1884265043" => $name,
@@ -57,18 +55,18 @@ try {
 
     if ($httpCode == 200) {
         // Successful submission
-        header('Location: ./thank-you.php');
+        header('Location: https://yourdomain.com/thank-you.php'); // Update with your actual domain
         exit();
     } else {
         // Submission failed
-        header('Location: ./form-submit-failed.php');
+        header('Location: https://yourdomain.com/form-submit-failed.php'); // Update with your actual domain
         exit();
     }
 } catch (Exception $e) {
     // Log the exception
     logError("Exception: " . $e->getMessage());
     // Handle the exception or redirect to an error page
-    header('Location: ./form-submit-failed.php');
+    header('Location: https://yourdomain.com/form-submit-failed.php'); // Update with your actual domain
     exit();
 }
 ?>
