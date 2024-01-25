@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -80,6 +80,7 @@
                     <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
                     <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
+                    <li><a class="nav-link " href="tel:+91-8605584979">+91 - 86055 84979</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -139,7 +140,8 @@
                                     placeholder="Email Address*">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="message" name="entry.170033134" placeholder="Requirements*"></textarea>
+                                <textarea class="form-control" id="message" name="entry.170033134"
+                                    placeholder="Requirements*"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
@@ -176,7 +178,8 @@
                                     placeholder="Email Address*">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="message" name="entry.170033134" placeholder="Requirements*"></textarea>
+                                <textarea class="form-control" id="message" name="entry.170033134"
+                                    placeholder="Requirements*"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
@@ -191,7 +194,7 @@
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
 
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="">
                 <div class="row">
 
                     <!-- <div class="col-lg-5 col-md-6">
@@ -239,7 +242,7 @@
 
         <!-- ======= Services Section ======= -->
         <section id="services" class="services section-bg">
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="">
                 <header class="section-header">
                     <h3>Our Services</h3>
                     <p>Explore our range of elevator services designed to meet your needs and exceed your expectations.
@@ -316,7 +319,7 @@
 
         <!-- ======= Why Us Section ======= -->
         <section id="why-us" class="why-us">
-            <div class="container-fluid" data-aos="fade-up">
+            <div class="container-fluid" data-aos="">
                 <header class="section-header">
                     <h3>Why Choose Us?</h3>
                     <p>Discover why Konet Elevator stands out from the rest in the industry.</p>
@@ -337,21 +340,21 @@
                                 of skilled
                                 professionals is adept at ensuring safety, reliability, and efficiency in every project.
                             </p>
-                            <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
+                            <div class="features clearfix" data-aos="" data-aos-delay="100">
                                 <i class="bi bi-bookmarks" style="color: #f058dc;"></i>
                                 <h4>Comprehensive Services</h4>
                                 <p>We offer a wide array of services, ensuring complete satisfaction for our clients'
                                     elevator
                                     requirements.</p>
                             </div>
-                            <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
+                            <div class="features clearfix" data-aos="" data-aos-delay="200">
                                 <i class="bi bi-box-seam" style="color: #ffb774;"></i>
                                 <h4>Customer-Centric Approach</h4>
                                 <p>Our customer-centric approach ensures that client needs are met with the highest
                                     level of attention
                                     and priority.</p>
                             </div>
-                            <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
+                            <div class="features clearfix" data-aos="" data-aos-delay="300">
                                 <i class="bi bi-card-checklist" style="color: #589af1;"></i>
                                 <h4>Commitment to Excellence</h4>
                                 <p>We are committed to delivering excellence in every project, adhering to safety
@@ -363,7 +366,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+                <div class="row counters" data-aos="" data-aos-delay="100">
                     <div class="col-lg-3 col-6 text-center">
                         <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"
                             class="purecounter"></span>
@@ -410,7 +413,7 @@
 
         <!-- ======= Features Section ======= -->
         <section id="features" class="features">
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="">
 
                 <div class="row feature-item">
                     <div class="col-lg-6 align-self-center" data-aos="fade-right" data-aos-delay="100">
@@ -468,7 +471,7 @@
 
         <!-- ======= clientel Section ======= -->
         <section id="clientel" class="clientel section-bg text-center  p-5">
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="">
                 <header class="section-header">
                     <h3 class="section-title">Our Clientele</h3>
                 </header>
@@ -479,12 +482,10 @@
                 <div class="row mb-2 clientel-Modal-responsive">
 
                     <div class="col-lg-4 m-2">
-                        <a href="#" class="open-deviBhavanModal" data-toggle="modal"
-                            data-target="#deviBhavanModal">
+                        <a href="#" class="open-deviBhavanModal" data-toggle="modal" data-target="#deviBhavanModal">
                             <div class="clientele-whole-wrapper">
                                 <div class="clientele-img-wrapper p-2">
-                                    <img src="assets/img/devi-bhavan/1.png" alt=""
-                                        class="img-fluid clientele-image">
+                                    <img src="assets/img/devi-bhavan/1.png" alt="" class="img-fluid clientele-image">
                                 </div>
                                 <div class="clientele-text-wrapper pb-1">
                                     <p class="clientele-text-wrapper-text "> Devi Bhavan - Breach Candy</p>
@@ -498,8 +499,7 @@
                             data-target="#infinityTowerModal">
                             <div class="clientele-whole-wrapper">
                                 <div class="clientele-img-wrapper p-2">
-                                    <img src="assets/img/infinity-tower/1.png" alt=""
-                                        class="img-fluid clientele-image">
+                                    <img src="assets/img/infinity-tower/1.png" alt="" class="img-fluid clientele-image">
                                 </div>
                                 <div class="clientele-text-wrapper pb-1">
                                     <p class="clientele-text-wrapper-text "> infinity-tower - Malabar Hill</p>
@@ -567,7 +567,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="row" data-aos="" data-aos-delay="100">
                     <div class="col-lg-12">
                         <table class="table">
                             <thead>
@@ -665,7 +665,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8">
 
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonials-slider swiper" data-aos="" data-aos-delay="100">
               <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
@@ -780,10 +780,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="controls-top float-right">
-                            <a id="locarrowleft" class="btn-floating slick-arrow" href="#"
-                                data-slide="prev"><span class="">←</span></a>
-                            <a id="locarrowright" class="btn-floating slick-arrow" href="#"
-                                data-slide="next"><span class="">→</span></a>
+                            <a id="locarrowleft" class="btn-floating slick-arrow" href="#" data-slide="prev"><span
+                                    class="">←</span></a>
+                            <a id="locarrowright" class="btn-floating slick-arrow" href="#" data-slide="next"><span
+                                    class="">→</span></a>
                         </div>
                     </div>
                 </div>
@@ -799,8 +799,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">Certificate</h5>
-                        <button type="button" class="close-certificate-Modal" data-dismiss="modal"
-                            aria-label="Close">
+                        <button type="button" class="close-certificate-Modal" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
@@ -819,8 +818,8 @@
 
         <!-- Modal 2  Devi Bhavan Modal -->
 
-        <div class="modal fade" id="deviBhavanModal" tabindex="-1" role="dialog"
-            aria-labelledby="deviBhavanModalLabel" aria-hidden="true">
+        <div class="modal fade" id="deviBhavanModal" tabindex="-1" role="dialog" aria-labelledby="deviBhavanModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -833,20 +832,16 @@
                     <div class="modal-body">
                         <div class="row devi-bhavan-responsive">
                             <div class="col-lg-12">
-                                <img src="assets/img/devi-bhavan/1.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/devi-bhavan/1.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/devi-bhavan/2.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/devi-bhavan/2.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/devi-bhavan/3.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/devi-bhavan/3.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/devi-bhavan/4.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/devi-bhavan/4.png" alt="" class="img-fluid custom-image">
                             </div>
                         </div>
                         <div class="row">
@@ -886,20 +881,16 @@
                     <div class="modal-body">
                         <div class="row infinity-tower-responsive">
                             <div class="col-lg-12">
-                                <img src="assets/img/infinity-tower/1.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/infinity-tower/1.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/infinity-tower/2.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/infinity-tower/2.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/infinity-tower/3.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/infinity-tower/3.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/infinity-tower/4.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/infinity-tower/4.png" alt="" class="img-fluid custom-image">
                             </div>
                         </div>
                         <div class="row">
@@ -938,29 +929,25 @@
                     <div class="modal-body">
                         <div class="row kalpana-marine-lines-responsive">
                             <div class="col-lg-12">
-                                <img src="assets/img/kalpana-marine-lines/1.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/kalpana-marine-lines/1.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/kalpana-marine-lines/2.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/kalpana-marine-lines/2.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/kalpana-marine-lines/3.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/kalpana-marine-lines/3.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/kalpana-marine-lines/4.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/kalpana-marine-lines/4.png" alt="" class="img-fluid custom-image">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="controls-top float-right">
-                                    <a id="kalpanaMarineLinesArrowLeft" class="btn-floating slick-arrow"
-                                        href="#" data-slide="prev"><span class="">←</span></a>
-                                    <a id="kalpanaMarineLinesArrowRight" class="btn-floating slick-arrow"
-                                        href="#" data-slide="next"><span class="">→</span></a>
+                                    <a id="kalpanaMarineLinesArrowLeft" class="btn-floating slick-arrow" href="#"
+                                        data-slide="prev"><span class="">←</span></a>
+                                    <a id="kalpanaMarineLinesArrowRight" class="btn-floating slick-arrow" href="#"
+                                        data-slide="next"><span class="">→</span></a>
                                 </div>
                             </div>
                         </div>
@@ -992,20 +979,16 @@
                     <div class="modal-body">
                         <div class="row shefield-towers-Modal-responsive">
                             <div class="col-lg-12">
-                                <img src="assets/img/shefield-towers/1.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shefield-towers/1.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/shefield-towers/2.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shefield-towers/2.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/shefield-towers/3.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shefield-towers/3.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/shefield-towers/4.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shefield-towers/4.png" alt="" class="img-fluid custom-image">
                             </div>
                         </div>
                         <div class="row">
@@ -1050,20 +1033,16 @@
                     <div class="modal-body">
                         <div class="row shivthirth-mahalaxmi-Modal-responsive">
                             <div class="col-lg-12">
-                                <img src="assets/img/shivthirth-mahalaxmi/1.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shivthirth-mahalaxmi/1.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/shivthirth-mahalaxmi/2.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shivthirth-mahalaxmi/2.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/shivthirth-mahalaxmi/3.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shivthirth-mahalaxmi/3.png" alt="" class="img-fluid custom-image">
                             </div>
                             <div class="col-lg-12">
-                                <img src="assets/img/shivthirth-mahalaxmi/4.png" alt=""
-                                    class="img-fluid custom-image">
+                                <img src="assets/img/shivthirth-mahalaxmi/4.png" alt="" class="img-fluid custom-image">
                             </div>
                         </div>
                         <div class="row">
@@ -1117,13 +1096,13 @@
 
         <!-- ======= F.A.Q Section ======= -->
         <section id="faq" class="faq">
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="">
                 <header class="section-header">
                     <h3>Frequently Asked Questions</h3>
                     <p>Here are some commonly asked questions about our services</p>
                 </header>
 
-                <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+                <ul class="faq-list" data-aos="" data-aos-delay="100">
 
                     <li>
                         <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What services do you
@@ -1260,23 +1239,25 @@
     </footer>
 
     <!--sticky mob-->
-    <!-- <div class="fixed-bottom d-md-block d-lg-none">
-    <div id="stickymob">
-      <div class="row stickybtn">
-        <a class="stickywa" href="whatsapp://send?text=Hello Doctor I want to Schedule a Visit&phone=+918605584979">
-          <img class="img-fluid" src="assets/img/wa-logo.png" height="45" width="45"
-            alt="Doctor On Call For Home Visit">
-        </a>
-      </div>
-    </div>
-  </div>
 
-  <a class="stickyphone" href="tel: +91 86055 84979">
-    <i class="bi bi-telephone-fill"></i>
-  </a> -->
+
+    <!-- <a class="stickyphone" href="tel: +91 86055 84979">
+        <i class="bi bi-telephone-fill"></i>
+    </a> -->
 
 
     <div class="stickymob d-lg-none d-block" style="display: none; bottom: 0px;">
+        <div class="fixed-bottom d-md-block d-lg-none">
+            <div id="stickymob">
+                <div class="row stickybtn">
+                    <a class="stickywa"
+                        href="whatsapp://send?text=Hello Konet Elevator! I would like to inquire about your elevator services.&phone=+918605584979">
+                        <img class="img-fluid" src="assets/img/wa-logo.png" height="45" width="45"
+                            alt="Contact Konet Elevator on WhatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
         <div class="row stickybtn">
             <a class="col stickycall text-center stickycol stickybdr" href="tel:+91-8605584979">
                 Call Now
@@ -1287,14 +1268,15 @@
             </a>
 
         </div>
+
     </div>
 
 
 
 
     <!-- End  Footer -->
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a> -->
 
     <script src="assets/js/jquery.min.js"></script>
 
