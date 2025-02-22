@@ -1266,9 +1266,7 @@
                 data-target="#enquiryModal">
                 Enquire Now
             </a>
-
         </div>
-
     </div>
 
 
